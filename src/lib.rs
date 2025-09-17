@@ -3,7 +3,7 @@ use std::cell::RefCell;
 
 #[derive(Debug, Default)]
 pub struct DiagnosticsEngine {
-    errors: RefCell<Vec<CompilerError>>,
+    pub errors: RefCell<Vec<CompilerError>>,
 }
 
 impl DiagnosticsEngine {
